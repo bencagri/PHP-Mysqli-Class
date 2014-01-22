@@ -15,6 +15,7 @@ Simple Mysqli Library for PHP
 This class has query,table,update,delete and insert methods to easily usage.
 First we need to configure our database connection.
 
+    require("mysqli.class.php");
     $config['db_host']      = "localhost";
     $config['db_username']  = "root";
     $config['db_password']  = "password";
