@@ -43,7 +43,7 @@ First is "table name", second is our data in array and third is "where situation
     $db->update("users", 
     array("user_name" => "Jen Doe",
           "user_email" => "jen@google.com),
-    array("id" = "1");
+    array("id" => "1");
     
 
 ###Delete
